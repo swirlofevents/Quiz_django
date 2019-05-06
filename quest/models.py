@@ -4,6 +4,7 @@ from django.db import models
 class AnswersModel(models.Model):
 
     answer = models.TextField(max_length=400, verbose_name="Ответ")
+    votes = models.CharField(max_length=4096, verbose_name="кол-во голосов")
 
 #    def __str__(self):
 #        return str(self.answer)
