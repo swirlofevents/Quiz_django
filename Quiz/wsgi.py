@@ -15,3 +15,4 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Quiz.settings")
 
 application = get_wsgi_application()
 print("Hi, pe")
+print("Хехехе")
